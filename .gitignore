@@ -1,0 +1,32 @@
+# Environnement et secrets
+.env
+.env.local
+*.env
+
+# Base de données
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Fichiers temporaires et scripts de debug
+_*.js
+_*.txt
+find3*.js
+_mod_testA.js
+_mod_testC.js
+*.bak
+*.gwbak
+
+# Système
+Thumbs.db
+.DS_Store
